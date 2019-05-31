@@ -1,0 +1,13 @@
+load_file("nrngui.hoc")
+print " ************************************************************"
+print " ************************************************************"
+print " ************************************************************"
+print "For a demo click successively on items 1 through 3"
+print "(including their redraw subheadings)"
+print "in the \"Calculate extracellular field potentials\" window."
+print "Note: graphical windows may be behind this control window."
+print " ************************************************************"
+print " ************************************************************"
+print " ************************************************************"
+
+load_file("calc_lfp_variable-resistivity.oc")
