@@ -58,12 +58,11 @@ ASSIGNED {
 
 
 VERBATIM
-#include <malloc.h>
+#include <stdlib.h>
 
 // calculate impedance for the whole range of frequencies
 
-void calc_impedances(Zr,Zi,fmax,df,rext,rmax,dr,R,sigma1,sigma2,lambda,epsilon,sigmaR)
-	double Zr[],Zi[],fmax,df,rext,rmax,dr,R,sigma1,sigma2,lambda,epsilon,sigmaR;
+void calc_impedances(double Zr[], double Zi[], double fmax, double df, double rext, double rmax, double dr, double R, double sigma1, double sigma2, double lambda,double epsilon, double sigmaR)
 	// vector Z is impedance, Z[0]=real part, Z[1]=imaginary part
    {
         double epsR,sigR,w,w2,sig,eps,den,ReZ,ImZ,r,f;
